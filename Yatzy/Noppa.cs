@@ -1,22 +1,14 @@
 public class Noppa
 {
-    public bool lukittu{get; set;}
-    public int arvo{get; set;}
-
-    public Noppa()
-    {
-        lukittu = false;
-    }
+    public bool lukittu { get; set; }
+    public int arvo { get; set; }
+    private readonly Random arvonta = new Random();
 
     public void Heitto()
     {
-        if(lukittu)
+        if (!lukittu)
         {
-            //ei tarvii tehdä mitään
-            return;
+            arvo = arvonta.Next(1, 7);
         }
-        Random arvonta = new Random();
-        //Returns a random integer that is within a specified range.
-        arvo = arvonta.Next(1,7);
     }
 }
