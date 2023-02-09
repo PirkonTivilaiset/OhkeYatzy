@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Järjestelmänvalvoja\\C#\\omat\\Yatzy\\Yatzy.csproj": {}
+    "D:\\ohjelmointi\\c#\\PirkonYatzy\\OhkeYatzy\\Yatzy\\Yatzy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Järjestelmänvalvoja\\C#\\omat\\Yatzy\\Yatzy.csproj": {
+    "D:\\ohjelmointi\\c#\\PirkonYatzy\\OhkeYatzy\\Yatzy\\Yatzy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Järjestelmänvalvoja\\C#\\omat\\Yatzy\\Yatzy.csproj",
+        "projectUniqueName": "D:\\ohjelmointi\\c#\\PirkonYatzy\\OhkeYatzy\\Yatzy\\Yatzy.csproj",
         "projectName": "Yatzy",
-        "projectPath": "C:\\Users\\Järjestelmänvalvoja\\C#\\omat\\Yatzy\\Yatzy.csproj",
-        "packagesPath": "C:\\Users\\Järjestelmänvalvoja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Järjestelmänvalvoja\\C#\\omat\\Yatzy\\obj\\",
+        "projectPath": "D:\\ohjelmointi\\c#\\PirkonYatzy\\OhkeYatzy\\Yatzy\\Yatzy.csproj",
+        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
+        "outputPath": "D:\\ohjelmointi\\c#\\PirkonYatzy\\OhkeYatzy\\Yatzy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Järjestelmänvalvoja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
